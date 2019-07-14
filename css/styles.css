@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.main * {
+    display: block;
+    margin: 0 auto;
+}
+
+.main {
+    margin-top: 200px;
+}
+
+.searchbar {
+    border: 1px solid #DDD;
+    height: 3.4em;
+    width: 40em;
+    border-radius: 3.4em;
+    margin-top: 25px;
+    padding: 0 25px;
+}
+
+.searchbar:hover, .searchbar:focus {
+    box-shadow: 0 2px 4px 1px #DDD
+}
+
+.buttons li {
+    text-align: center;
+    background-color: #EEE;
+    width: 150px;
+    padding: 10px 0;
+    color: #555;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.buttons li:hover {
+    cursor: pointer;
+    border: 1px solid #BBB;
+    color: #222;
+    box-shadow: 0 1px 1px #DDD;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.navbar ul, .footer ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar li {
+    font-size: 12px;
+    margin: 25px 10px;
+    float: right;
+}
+
+.navbar li:hover, .footer li:hover {
+    cursor: pointer;
+}
+
+.navbar li:not(:first-child):hover, .footer li:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color: #4285f4;
+    color: white;
+    padding: 7px 9px;
+    margin: 18px 0 0 40px !important;
+}
+
+.footer ul li {
+    float: left;
+    margin: 10px 15px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer {
+    background-color: #EEE;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 4px 12px;
+    border: 1px solid #DEDEDE;
+}
+
+.square {
+    position: absolute;
+    right: 85px;
+    width: 15px;
+    height: 15px;
+    top: 25px;
+    opacity: 0.5
+}
+
+.square:hover {
+    cursor: pointer;
+    opacity: 1;
+}
